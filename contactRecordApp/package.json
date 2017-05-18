@@ -1,0 +1,20 @@
+{
+  "name": "org.igorfachini.contactrecordapp",
+  "displayName": "Contact Record",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Fachini",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IgorFachini/ApacheCordovaTest.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.98.2"
+  }
+}

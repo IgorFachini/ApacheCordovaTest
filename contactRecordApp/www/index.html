@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Contact Record</title>
+  <!-- Icones do materialize https://klarsys.github.io/angular-material-icons/# -->
+  <link rel="stylesheet" href="icons/material.css">
+  <!-- Para não nos preocupar com design ou estilos, deixamos o materialize cuidar disso. -->
+  <!-- http://materializecss.com/ -> Da um toque "mobile" de estilos ao nosso app -->
+  <link rel="stylesheet" href="css/materialize.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topo-fixo z-depth-1">
+    <div class="valign-wrapper purple darken-3 white-text">
+      <h5 class="titulo">Contact Record</h5>
+
+      <div>
+        <i class="material-icons waves-effect waves-light
+        waves-circle dropdown-button"
+        data-activates="submenu" data-gutter="5"
+        data-constrainwidth="false">
+        more_vert
+      </i>
+
+      <ul id="submenu" class="dropdown-content">
+        <li><a class="black-text acao-limpar">Limpar</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <ul class="tabs">
+    <li class="tab">
+      <a href="#cadastrar"
+      class="black-text waves-effect waves-purple">
+      Cadastrar
+    </a>
+  </li>
+  <li class="tab">
+    <a href="#listar"
+    class="black-text waves-effect waves-purple">
+    Listar
+  </a>
+</li>
+</ul>
+</div>
+
+
+
+<div id="cadastrar" class="section">
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="nome" type="text" class="validate">
+          <label for="nome">Nome</label>
+        </div>
+
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+
+        <div class="input-field col s12">
+          <input id="celular" type="number" class="validate">
+          <label for="celular">Celular</label>
+        </div>
+
+        <div class="fixed-action-btn">
+          <a id="btnCadastrar" class="waves-effect waves-light btn purple darken-4">Cadastrar</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="listar" class="section">
+
+</div>
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="cordova.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
