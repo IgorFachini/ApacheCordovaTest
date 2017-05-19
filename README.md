@@ -6,5 +6,9 @@ contactRecordApp = Simple application for contact management -> Contains Create,
 <a href="https://igorfachini.github.io/ApacheCordovaTest/contactRecordApp/www/index.html"> contactRecordApp live demo </a>
 
 Database: indexedDB -> <a href="https://cordova.apache.org/docs/en/latest/cordova/storage/storage.html#indexeddb">Documentation</a>
+
+Warning!!!!!!!!!!
+
+Database: Not supported on iOS.
 <hr>
 
