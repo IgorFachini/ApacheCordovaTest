@@ -10,7 +10,7 @@ body {
     margin-right: auto;
 }
 
-/* cor da aba */
+/* cor da linha debaixo da aba */
 .tabs .indicator {
     background-color: #662D91;
 }
@@ -22,11 +22,13 @@ body {
     width: 100%;
     z-index: 2;
 }
+
+/*Espaçamento para o topo fixo nao ficar em cima*/
 .section {
     padding-top: 125px;
 }
 
-/* label underline focus color */
+/* Linha debaixo do input */
  .input-field input {
    border-bottom: 1px solid #662D91;
    box-shadow: 0 1px 0 0 #662D91;

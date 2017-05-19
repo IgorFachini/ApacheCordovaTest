@@ -27,7 +27,7 @@
       </i>
 
       <ul id="submenu" class="dropdown-content">
-        <li><a class="black-text acao-limpar">Limpar</a></li>
+        <li><a href="javascript:apagaTodos()"class="black-text acao-limpar">Excluir todos</a></li>
       </ul>
     </div>
   </div>
@@ -49,10 +49,9 @@
 </div>
 
 
-
 <div id="cadastrar" class="section">
   <div class="row">
-    <form class="col s12">
+    <form class="col s12 form" onsubmit="adiciona(event)">
       <div class="row">
         <div class="input-field col s12">
           <input id="nome" type="text" class="validate">
@@ -70,24 +69,22 @@
         </div>
 
         <div class="fixed-action-btn">
-          <a id="btnCadastrar" class="waves-effect waves-light btn purple darken-4">Cadastrar</a>
+          <button id="btnCadastrar" type="submit" class="btn waves-effect waves-light purple darken-4">Cadastrar</button>
         </div>
       </div>
     </form>
   </div>
 </div>
 
-<div id="listar" class="section">
-
-</div>
+<div id="listar" class="section row" selected></div>
 
 
 
 
-
+<script src="cordova.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/materialize.min.js"></script>
-<script src="cordova.js"></script>
+<script src="js/models/contato.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
